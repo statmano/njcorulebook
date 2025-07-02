@@ -1,6 +1,6 @@
 # Draft
 
-* The draft is typically done the weekend as close to the start of the football season (typically Labor day weekend).
+* The draft is typically done the weekend as close to the start of the football season (Labor Day weekend).
 
 * The draft is a snake draft (1-12, 12-1, 1-12, ...)
 

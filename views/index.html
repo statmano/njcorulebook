@@ -1,0 +1,82 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NJCO Rulebook</title>
+    <meta name="description" content="This is rulebook for a fantasy football league">
+    <link id="favicon" rel="icon" href="https://cdn.glitch.com/0835553c-8dce-4cb7-895c-324a6fac846e%2Ffootball-helmet-icon.png?v=1600496734311" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#A5A8AB"/>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+       
+    <link rel="stylesheet" href="/style.css">
+    <link rel="manifest" href="manifest.json">
+  <style>
+  </style>
+  </head>
+  <body>
+    <div class="container" id="top">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light rounded">
+        
+        <form class="js-search-form form-inline">
+          <input id="s" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+        <span class="badge badge-light" id="search-stats"></span>
+        
+      </nav>
+    </header>
+
+    <main>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-8">
+        <div class="tab-content" id="nav-tabContent">
+          
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 ">
+        <div class="list-group" id="list-tab" role="tablist">
+        </div>
+      </div>      
+    </div>
+         
+    <a href="#top" class="d-block d-md-none">^ top</a>
+        
+    </main>
+      
+      
+    <footer class="footer">
+      
+    </footer>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.4.2/markdown-it.min.js"></script>
+    <script src="https://cdn.glitch.com/f55866fa-2ded-48bc-aa22-2f7c25415551%2Fsearch-index.min.js?1529700219457"></script>
+    <script src="/jquery.highlight.js"></script>
+    <script src="/app.js"></script>
+    <script type="text/javascript">
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker
+                 .register('/service-worker.js')
+                 .then(function(reg) {
+                   console.log('service worker registered --- ' + reg.scope);
+                 }).catch(function(err) {
+                   console.log('service worker failed --- ' + err);
+                 });
+      }
+    </script>
+    </div>
+  </body>
+</html>
